@@ -4,6 +4,12 @@ export enum EquipmentStatus {
 	STOPPED = "Parado",
 }
 
+export enum EquipmentType {
+	TRUCK = "Caminhão de carga",
+	HARVESTER = "Harvester",
+	TRACTOR = "Garra traçadora",
+}
+
 export type Equipment = {
 	id: string;
 	equipmentModelId: string;
