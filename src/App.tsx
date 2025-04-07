@@ -5,7 +5,6 @@ import { Navigation } from "./components/Navigation";
 import { Dashboard } from "./views/Dashboard";
 import { EquipmentMap } from "./views/EquipmentMap";
 
-
 function App() {
 	return (
 		<Router>

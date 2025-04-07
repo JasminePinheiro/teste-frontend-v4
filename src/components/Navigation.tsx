@@ -1,4 +1,4 @@
-import React from "react";
+import type React from "react";
 import { Link, useLocation } from "react-router-dom";
 
 export const Navigation: React.FC = () => {
@@ -6,7 +6,9 @@ export const Navigation: React.FC = () => {
 
 	return (
 		<nav className="navigation">
-			<div className="nav-logo"><img src="./img/aiko.png" alt="logo" className="logo"/></div>
+			<div className="nav-logo">
+				<img src="./img/aiko.png" alt="logo" className="logo" />
+			</div>
 			<div className="nav-items">
 				<Link
 					to={"/"}
